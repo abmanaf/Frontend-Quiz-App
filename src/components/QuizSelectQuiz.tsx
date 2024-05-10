@@ -50,13 +50,13 @@ const StyledIconCon = styled.div<StyledIconConProps>`
   ${smallCon}
   background-color: ${(props) => props.$cl && `var(${props.$cl})`};
   background-image: ${(props) =>
-    props.$img && `url("/${imageMapping[props.$img]}")`};
+    props.$img && `url("/assets/images/${imageMapping[props.$img as keyof ImageMappingProps]}")`}; 
   background-repeat: no-repeat;
   background-position: center;
   background-size: 2.8rem;
   padding: 1.1em 1.1em;
-  
 `;
+
 
 const StyledNavLink = styled(NavLink)`
   width: 100%;
@@ -79,7 +79,7 @@ function QuizSelectQuiz() {
     <StyledQuizSelectQuiz
       ref={quizRef}
       tabIndex={1}
-      onKeyDown={(e) => handleKeyDownSelectQuiz(e, navigate)}
+      onKeyDown={(e: React.KeyboardEvent<HTMLDivElement>) => handleKeyDownSelectQuiz(e, navigate)} // Specify the type of e
     >
       
       {quizzes.map((quiz) => (
