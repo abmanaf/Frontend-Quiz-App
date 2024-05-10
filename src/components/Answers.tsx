@@ -89,9 +89,9 @@ const StyledCheckedAnswer = styled.div<StyledCheckedAnswerProps>`
   height: 3.2rem;
   background: ${(props) =>
       props.$isAnswerCorrect
-        ? 'url("/icon-correct.svg")'
+        ? 'url("/assets/images/icon-correct.svg")'
         : props.$isAnswerIncorrect
-        ? 'url("/icon-incorrect.svg")'
+        ? 'url("/assets/images/icon-incorrect.svg")'
         : ""}
     no-repeat center;
   background-size: 3rem;
