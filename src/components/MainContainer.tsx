@@ -32,7 +32,7 @@ const StyledConMain = styled.div<StyledConMainProps>`
     background: ${(props) =>
       `var(--cl-bg-main) ${
         props.$isDarkMode
-          ? "url('/assets/images/pattern-backgroud-desktop-dark.svg')"
+          ? "url('/assets/images/pattern-background-desktop-dark.svg')"
           : "url('/assets/images/pattern-background-desktop-light.svg')"
       } no-repeat left top`};
     background-size: cover;
