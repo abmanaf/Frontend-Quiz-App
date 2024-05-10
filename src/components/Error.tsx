@@ -10,7 +10,7 @@ const StyledError = styled.div`
 `;
 
 const StyledImg = styled.div`
-  background: url("/icon-error.svg") no-repeat center;
+  background: url("/assets/images/icon-error.svg") no-repeat center;
   width: 3.2rem;
   height: 3.2rem;
   background-size: 90%;
