@@ -42,7 +42,6 @@ const StyledText = styled.h3`
 `;
 
 function QuizIconName({ name, iconName, cl }: QuizIconNameProps) {
-  // Check if any of the required props are undefined
   if (!name || !iconName || !cl) {
     return <Paragraph>Image is unavailable</Paragraph>;
   }
