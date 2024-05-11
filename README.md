@@ -1,7 +1,6 @@
-# Frontend Mentor - Frontend quiz app solution
+# Amalitech - Amalitech Project (Frontend quiz app) solution
 
-This is a solution to the [Frontend quiz app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/frontend-quiz-app-BE7xkzXQnU). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
+This is a solution to the Frontend quiz app challenge on Amalitech NSS.
 ## Table of contents
 
 - [Overview](#overview)
@@ -31,9 +30,15 @@ Users should be able to:
 - Navigate the entire app only using their keyboard
 - Change the app's theme between light and dark
 
-### Screenshot
+### Screenshots
+- Laptop view
+![](./public/Screenshot_frontpage.png)
 
-![](./public/screenshot.png)
+- Tablet view
+![](./public/Screenshot-tablet.png)
+
+- Mobile view
+![](./public/Screenshot-mobile.png)
 
 ### Links
 
