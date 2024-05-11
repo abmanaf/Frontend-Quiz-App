@@ -3,15 +3,15 @@
 This is a solution to the Frontend quiz app challenge on Amalitech NSS.
 ## Table of contents
 
-- [Overview](#overview)
+  - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-- [Author](#author)
-- [Run the project](#run)
+  - [Author](#author)
+  - [Run the project](#run)
 
 ## Overview
 
@@ -43,7 +43,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://frontend-quiz-app-reactjs.netlify.app](https://frontend-quiz-app-reactjs.netlify.app)
+- Solution URL: [https://alibaba-frontend-quiz.netlify.app/]
 
 ## My process
 
