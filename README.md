@@ -1,4 +1,4 @@
-# Amalitech - Amalitech Project (Frontend quiz app) solution
+# Amalitech - Amalitech Project (Frontend Quiz App) solution
 
 This is a solution to the Frontend quiz app challenge on Amalitech NSS.
 ## Table of contents
@@ -7,7 +7,7 @@ This is a solution to the Frontend quiz app challenge on Amalitech NSS.
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
+  - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
