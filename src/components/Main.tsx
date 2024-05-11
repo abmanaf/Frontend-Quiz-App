@@ -1,8 +1,7 @@
 import { styled } from "styled-components";
 import Quiz from "./Quiz";
 import flex from "../u_interface/Flex";
-//import ColorTheme from "./ColorTheme";
-//import Header from "./Header";
+
 
 
 const StyledMain = styled.div`
@@ -27,7 +26,6 @@ const StyledMain = styled.div`
 function Main() {
   return (
     <StyledMain>
-      {/* Pass displayAccessibility to Header component */}
       <Quiz />
     </StyledMain>
   );
