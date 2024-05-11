@@ -2,7 +2,6 @@ import { styled } from "styled-components";
 import flex from "../u_interface/Flex";
 import Paragraph from "../u_interface/Paragraph";
 import ProgressLine from "../u_interface/ProgressLine";
-//import Header from "./Header";
 
 type QuestionsProps = {
   id: string | undefined;
@@ -36,9 +35,6 @@ function Questions({ id, question }: QuestionsProps) {
 
   return (
     <StyledQuestions>
-      {/* 
-            <Header displayAccessibility={displayAccessibility} />
-*/}
       <StyledTextCon>
         <Paragraph $size="small">Question {id} of 10</Paragraph>
         <Paragraph>{question}</Paragraph>
