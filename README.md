@@ -11,6 +11,7 @@ This is a solution to the Frontend quiz app challenge on Amalitech NSS.
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
+- [Run the project](#run)
 
 ## Overview
 
@@ -48,7 +49,7 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
@@ -59,8 +60,13 @@ Users should be able to:
 
 ### What I learned
 
-Learned more about working with refs and about accessibility. My first time working with typescript, wasn't easy but was fun.
+Learned more about working with REACT HOOKS.
 
 ## Author
 
 - Frontend Mentor - [@MarinaDur](https://www.frontendmentor.io/profile/MarinaDur)
+
+
+## Run
+
+- Type "npm run dev" in the terminal
