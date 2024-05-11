@@ -41,11 +41,10 @@ const StyledConMain = styled.div<StyledConMainProps>`
 
 function MainContainer() {
   const { isDarkMode } = useQuiz();
-  //const displayAccessibility = true; // Set displayAccessibility as needed
 
   return (
     <StyledConMain $isDarkMode={isDarkMode}>
-      <Main /> {/* Pass displayAccessibility prop */}
+      <Main /> 
     </StyledConMain>
   );
 }
