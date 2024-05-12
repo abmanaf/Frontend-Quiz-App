@@ -41,6 +41,7 @@ Users should be able to:
 - Mobile view
 ![](./public/Screenshot-mobile.png)
 
+
 ### Links
 
 - Solution URL: [https://alibaba-frontend-quiz.netlify.app/]
