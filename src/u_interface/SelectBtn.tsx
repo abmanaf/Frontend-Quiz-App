@@ -33,7 +33,10 @@ type AnswerProps = {
 };
 
 const StyledSelectBtn = styled.button<AnswerProps>`
-  
+  background: var(--cl-bg-choice);
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0px 16px 40px 0px var(--cl-shadow);
   ${flex}
   gap: 1.6rem;
   justify-content: flex-start;
