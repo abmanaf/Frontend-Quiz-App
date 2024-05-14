@@ -11,8 +11,7 @@ const selectionText = css`
     line-height: 28px;
   }
   @media (min-width: 1024px) {
-    font-size: 1.8rem;
-    line-height: 1.2;
+   
   }
 
   @media (min-width: 1280px) {
