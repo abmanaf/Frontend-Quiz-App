@@ -6,7 +6,8 @@ const smallCon = css`
   border-radius: 8px;
 
   @media (min-width: 768px) {
-    
+    min-width: 5.6rem;
+    height: 5.6rem;
   }
 `;
 
