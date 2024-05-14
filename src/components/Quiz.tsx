@@ -5,10 +5,6 @@ import router from "../Router/Router";
 const StyledQuiz = styled.main`
   width: 100%;
 
-  @media (min-width: 1024px) {
-    display: grid;
-    grid-template-rows: auto;
-  }
 `;
 
 function Quiz() {
