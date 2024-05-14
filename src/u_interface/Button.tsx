@@ -33,6 +33,29 @@ const StyledButton = styled.button<StyledButtonProps>`
   box-shadow: 0px 16px 40px 0px var(--cl-shadow);
   border: none;
 
+  &:hover {
+    background: var(--cl-bg-btn-hover);
+    transition: all 0.2s ease-in-out;
+  }
+
+  @media (min-width: 768px) {
+    padding: 3.2rem;
+    border-radius: 24px;
+    font-size: 2.8rem;
+  }
+  @media (min-width: 1024px) {
+    padding: 2rem;
+    font-size: 1.8rem;
+  }
+  @media (min-width: 1028px) {
+    font-size: 2.8rem;
+    padding: 3.2rem;
+  }
+
+  &:focus {
+    border: none;
+    outline: none;
+  }
 `;
 
 const Button = forwardRef(
