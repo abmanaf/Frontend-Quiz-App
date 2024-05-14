@@ -18,6 +18,7 @@ const StyledProgressLineCon = styled.div`
 `;
 
 const StyledProgress = styled.div<StyledProgressProps>`
+  border-radius: 999px;
   height: 8px;
   width: ${(props) =>
     props.$progress ? `${(props.$progress / 10) * 100}%` : "0"};
