@@ -32,7 +32,10 @@ const ColorStyled = styled.div`
   margin-top: 7em;
   margin-bottom: 7em;
 
-
+  @media (max-width: 500px) {
+    margin-top: 2em;
+    margin-bottom: 3em;
+  }
   @media (min-width: 501px) and (max-width: 767px) {
     margin-top: 4em;
     margin-bottom: 4em;
