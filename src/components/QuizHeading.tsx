@@ -20,7 +20,10 @@ const StyledQuizStartHeading = styled.div`
   @media (min-width: 1024px) {
     width: 55%;
   }
-  
+  @media (min-width: 1280px) {
+    width: 50%;
+
+  }
 `;
 
 const StyledSpan = styled.span`
