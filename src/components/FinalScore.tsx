@@ -34,7 +34,7 @@ const StyledFinalScore = styled.div`
 function FinalScore() {
   const { correctAnswersCount } = useQuiz();
   const { type } = useParams();
-  console.log("Type from URL:", type); // Log the type parameter
+  console.log("Type from URL:", type);
 
   return (
     <StyledFinalScore>
