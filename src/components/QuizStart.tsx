@@ -5,10 +5,7 @@ import QuizSelectQuiz from "./QuizSelectQuiz";
 import ColorTheme from "./ColorTheme";
 
 const StyledTheme = styled.div`
-  display: flex;
-  justify-content: end;
-  margin-top: 7em; /* Changed marginTop to marginTop */
-  margin-bottom: 7em;
+  
 
   @media (max-width: 500px) {
     margin-top: 2em; /* Changed marginTop to marginTop */
