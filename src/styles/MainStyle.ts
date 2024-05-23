@@ -3,7 +3,6 @@ import { createGlobalStyle } from "styled-components";
 const MainStyle = createGlobalStyle`
 :root {
 
-//shared
 --cl-bg-btn-and-selection-active: #A729F5;
 --cl-bg-btn-hover: rgba(167, 41, 245, 0.5);
 --cl-selection: #F4F6FA;
@@ -22,7 +21,6 @@ const MainStyle = createGlobalStyle`
 
 
 
-//light-mode
 &,&.light-mode{
 --cl-bg-main: #F4F6FA;
 --cl-bg-choice: #FFF;
@@ -32,7 +30,6 @@ const MainStyle = createGlobalStyle`
 --cl-shadow: rgba(143, 160, 193, 0.18);
 }
 
-//dark-mode:
 &.dark-mode{
 --cl-bg-main: #313E51;
 --cl-bg-choice: #3B4D66;
@@ -64,7 +61,6 @@ const MainStyle = createGlobalStyle`
   
 }
 
-/* Prevent font size inflation */
 html {
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
@@ -72,13 +68,11 @@ html {
    font-size: 62.5%;
 }
 
-/* Remove default margin in favour of better control in authored CSS */
 body, h1, h2, h3, h4, h5, h6, p,
 figure, blockquote, dl, dd {
   margin-block-end: 0;
 }
 
-/* Set core body defaults */
 body {
   min-height: 100vh;
   line-height: 1.5;
@@ -86,7 +80,6 @@ body {
 
 
 }
-/* Remove list styles on ul, ol elements */
 ul,
 ol{
   list-style: none;
@@ -94,13 +87,11 @@ ol{
 
 
 
-/* Set shorter line heights on headings and interactive elements */
 h1, h2, h3, h4, h5, h6
 button, input, label {
   line-height: 1.1;
 }
 
-/* Balance text wrapping on headings */
 h1, h2,
 h3, h4, h5, h6 {
   /* text-wrap: balance; - not yet supporeted on some browsers */
@@ -109,26 +100,22 @@ overflow-wrap: break-word;
 }
 
 
-/* Make images easier to work with */
 img,
 picture {
   max-width: 100%;
 
 }
 
-/* Inherit fonts for inputs and buttons */
 input, button,
 textarea, select {
   font: inherit;
   color: inherit;
 }
 
-/* Make sure textareas without a rows attribute are not tiny */
 textarea:not([rows]) {
   min-height: 10em;
 }
 
-/* Anything that has been anchored to should have extra scroll margin */
 :target {
   scroll-margin-block: 5ex;
 }
@@ -155,7 +142,6 @@ select:focus {
   outline-offset: -1px;
 }
 
-// remove the default arrows (spinner controls) from number inputs 
 /* For Chrome, Safari, and newer versions of Edge */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
