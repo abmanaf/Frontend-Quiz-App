@@ -102,6 +102,8 @@ Click the Code button (green button) and select Download ZIP.
 Extract the downloaded ZIP file to your desired location.
 ```
 ```
+Open the project with your favourite code editor eg(vscode). 
+```
+```
 Start the project by typing 'npm run dev' in your terminal
-
 ```
