@@ -59,9 +59,31 @@ Users should be able to:
 - [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
+list at least 3 things you learnt 
 
 Learned more about working with REACT HOOKS.
 
-## Run
 
-- Type "npm run dev" in the terminal
+## How to Run the Project
+
+1. clone repository 
+
+```
+git clone https://github.com/abmanaf/Frontend-Quiz-App.git
+```
+
+2. change directory to project root.
+```
+cd Frontend-Quiz-App
+```
+3. Install depedencies 
+
+```
+npm install 
+```
+
+4. start project
+```
+ npm run dev
+ ``` 
+
