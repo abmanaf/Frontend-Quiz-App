@@ -59,9 +59,10 @@ Users should be able to:
 - [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
-list at least 3 things you learnt 
 
-Learned more about working with REACT HOOKS.
+- Learned more about working with REACT HOOKS.
+
+- My first time working on a project with typescript, in fact i learned a lot about typescript.
 
 
 ## How to Run the Project
