@@ -66,6 +66,8 @@ Learned more about working with REACT HOOKS.
 
 ## How to Run the Project
 
+FIRST APPROACH
+
 1. clone repository 
 
 ```
@@ -87,3 +89,18 @@ npm install
  npm run dev
  ``` 
 
+ALTERNATIVE APPROACH
+
+```
+At the repository page in your browser,
+```
+```
+Click the Code button (green button) and select Download ZIP.
+```
+```
+Extract the downloaded ZIP file to your desired location.
+```
+```
+Start the project by typing 'npm run dev' in your terminal
+
+```
